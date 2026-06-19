@@ -31,6 +31,7 @@
   }
   a{color:var(--accent);text-decoration:none;}
   a:hover{text-decoration:underline;}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;}
 
   header{
     position:sticky;top:0;z-index:10;
@@ -52,7 +53,7 @@
 
   .hero{padding:56px 0 40px;display:flex;gap:32px;align-items:flex-start;flex-wrap:wrap;}
   .hero img{
-    width:128px;height:128px;border-radius:50%;object-fit:cover;
+    width:184px;height:184px;border-radius:50%;object-fit:cover;
     border:1px solid var(--line);flex-shrink:0;
   }
   .photo-ph{
@@ -113,9 +114,8 @@
     <img src="photo.jpg" alt="Jason M. Roberts">
 
     <div class="intro">
-      <p class="eyebrow">Professor of Political Science · UNC–Chapel Hill</p>
-      <h1>Congress, elections, and election administration</h1>
-      <p>I am a Professor of Political Science at the University of North Carolina at Chapel Hill, where I study how America's political institutions shape outcomes. My research centers on the U.S. Congress, congressional elections, and the practical machinery of how elections are run. I am especially interested in how rules—from the design of a ballot to the procedures of the Senate—shape who wins, who governs, and what gets done. I am the author or co-author of several books, including <em>The Politics of Ballot Design</em> (2020) and <em>Ambition, Competition, and Electoral Reform</em> (2013), and I co-edit <em>Legislative Studies Quarterly</em>. My current project examines how personal relationships among members foster legislative collaboration in Congress.</p>
+      <h1 class="sr-only">Jason M. Roberts</h1>
+      <p>I am a Professor of Political Science at the University of North Carolina at Chapel Hill, where I study how America's political institutions shape outcomes. My research centers on the U.S. Congress, congressional elections, and the practical machinery of how elections are run. I am especially interested in how rules—from the design of a ballot to the procedures of the Senate—shape who wins, who governs, and what gets done. I am the author or co-author of several books, including <em>The Politics of Ballot Design</em> (2020) and <em>Ambition, Competition, and Electoral Reform</em> (2013), and I co-edit <em>Legislative Studies Quarterly</em>. My current project examines how personal relationships among members foster legislative collaboration in Congress. I teach courses in American politics at the undergraduate and graduate levels, and in UNC's <a href="https://ppe.unc.edu/">Philosophy, Politics, and Economics</a> program.</p>
     </div>
   </section>
 
@@ -125,7 +125,7 @@
     <h3>Books</h3>
     <ul class="pubs">
       <li>
-        <em>The Politics of Ballot Design: How States Shape American Democracy.</em> 2020. Cambridge University Press.
+        <a href="https://www.amazon.com/Politics-Ballot-Design-American-Democracy/dp/1108842801"><em>The Politics of Ballot Design: How States Shape American Democracy.</em></a> 2020. Cambridge University Press.
         <span class="coauthor">With Erik J. Engstrom.</span>
       </li>
       <li>
